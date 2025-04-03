@@ -1,6 +1,5 @@
 from rest_framework import serializers
-from api.models import Plat
-
+from .models import Plat
 
 class PlatSerializer(serializers.ModelSerializer):
     class Meta:

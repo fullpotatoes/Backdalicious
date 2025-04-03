@@ -1,6 +1,6 @@
 from django.urls import path
-from api import views
+from . import views
 
 urlpatterns = [
-    path("Plat/", views.PlatListCreate.as_view(), name="Plat-view-create"),
+    path("Plats/", views.PlatListCreate.as_view(), name="Plat-view-create"),
 ]
